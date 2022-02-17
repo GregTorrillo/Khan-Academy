@@ -1,0 +1,178 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+body {
+	margin: 0;
+	padding: 0;
+  width: 100%;
+  height: 98vh;
+  background-image: url(../images/background-image.jpg);
+  background-size: cover;
+}
+
+/* Header */
+
+.nav {
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid #D6D8DA;
+
+}
+.nav-list {
+  width: 100%;
+	list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: -50px;
+
+}
+li {
+	float: left;
+	padding: 0 15px 0 15px;
+}
+li a {
+	display: block;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	color: #1663F2;
+	text-align: center;
+}
+.logo {
+  width: 35%;
+  margin: -20px -100px 0 190px;
+}
+.blue-arrow {
+	width: 5%;
+  margin-top: 5px;
+	margin-left: -25px;
+}
+.boxContainer {
+	margin-top: -7px;
+	position: relative;
+	width: 200px;
+	height: 40px;
+	background: #F0F1F2;
+	border-radius: 5px;
+  margin-left: -225px;
+}
+.elementsContainer {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.search {
+	border: none;
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 700;
+	color: #1663F2;
+  background: #F0F1F2;
+}
+.search-icon {
+	width: 15%;
+	color: #888D92;
+  float: right;
+}
+::placeholder {
+	font-size: 16px;
+	font-weight: 700;
+	color: #1663F2;
+}
+
+/* ---------------------main---------------------- */
+
+.container {
+	width: 100%;
+	height: 700px;
+}
+/* ---------------------MAIN-LEFT---------------------  */
+.khan-pic {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 700px;
+
+}
+.kids {
+  width: 55%;
+	float: right;
+	margin: 100px 10px 0 0;
+
+/* ---------------------MAIN-RIGHT-------------------  */
+}
+.content {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 700px;
+}
+.headline-one, .headline-two, .headline-three {
+  font-size: 54px;
+	font-family: 'Lora', serif;
+	font-weight: 500;
+}
+.headline-one {
+	margin: 200px 0 0 10px;
+}
+.headline-two, .headline-three {
+	margin: -5px 0 0 10px;
+}
+.lines {
+	width: 30%;
+	margin-top: -8px;
+}
+.p1, .p2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 20px 0 0 10px;
+}
+.button-list {
+	margin: 40px 0 0 -35px;
+}
+
+button {
+	background: #1865F2;
+	color: white;
+	width: 100px;
+	height: 45px;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin-left: 5px;
+}
+
+/* -------------------BOTTOM--------------------  */
+.khar-works {
+	width: 100%;
+	height: 200px;
+	border: 1px solid black;
+}
+h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 175px;
+}
